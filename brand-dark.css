@@ -1,0 +1,52 @@
+/* Variables CSS para modo oscuro */
+body.dark-mode {
+    --primary-color: #1e40af;
+    --primary-hover: #1e3a8a;
+    --primary-light: #3b82f6;
+    
+    --secondary-color: #374151;
+    --secondary-hover: #4b5563;
+    
+    --accent-color: #34d399;
+    --accent-hover: #10b981;
+    
+    /* Colores neutros invertidos */
+    --neutral-50: #1e293b;
+    --neutral-100: #334155;
+    --neutral-200: #475569;
+    --neutral-300: #64748b;
+    --neutral-400: #94a3b8;
+    --neutral-500: #cbd5e1;
+    --neutral-600: #e2e8f0;
+    --neutral-700: #f1f5f9;
+    --neutral-800: #f8fafc;
+    --neutral-900: #ffffff;
+    
+    /* Fondos oscuros */
+    --dark-bg: #0a0f1c;
+    --light-bg: #1e293b;
+    --card-bg: #0f172a;
+    
+    /* Textos para modo oscuro */
+    --text-primary: #f8fafc;
+    --text-secondary: #cbd5e1;
+    --text-muted: #94a3b8;
+    --text-light: #64748b;
+    --white: #ffffff;
+    
+    /* Colores de estado */
+    --success: #22c55e;
+    --warning: #f59e0b;
+    --error: #ef4444;
+    --info: #60a5fa;
+    
+    /* Sombras más intensas para modo oscuro */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.4);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.6), 0 10px 10px -5px rgba(0, 0, 0, 0.5);
+    
+    /* Bordes para modo oscuro */
+    --border-color: #334155;
+    --border-color-hover: #475569;
+}

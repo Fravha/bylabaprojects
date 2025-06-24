@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bylaba Projects</title>
+    <link rel="stylesheet" href="brand.css">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link rel="stylesheet" href="stile.css"> 
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav-container">
+            <a href="#inicio" class="logo">
+                <img style="width: 40px; height: 40px; background: linear-gradient(135deg, #1e40af, #059669); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;" src="assets/img/logoBylaba.png" alt="Logo Bylaba" class="logo-img">
+                <span class="logo-text">Bylaba Projects</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <button class="mobile-menu" id="mobileMenu">☰</button>
+            <button class="toggle-theme-btn" id="themeToggle" title="Cambiar modo">🌙</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <h1>Francisco Bailaba</h1>
+            <p class="subtitle">Estudiante de Ingeniería & Desarrollador de Software</p>
+            <p class="description">Soy estudiante de Ingeniería de Sistemas y creador de proyectos de software innovadores que resuelven problemas reales.</p>
+            <a href="#proyectos" class="cta-button">Ver mis proyectos</a>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="proyectos">
+        <h2 class="section-title fade-in">Mis Proyectos</h2>
+        <div class="projects-grid">
+            <div class="project-card fade-in">
+                <div class="project-icon">FA</div>
+                <h3>Fasty App</h3>
+                <p>Aplicación móvil para gestión rápida de tareas y productividad personal con interfaz intuitiva y sincronización en tiempo real.</p>
+                <a href="#" class="project-button">Ver más</a>
+            </div>
+            
+            <div class="project-card fade-in">
+                <div class="project-icon">BR</div>
+                <h3>Branches</h3>
+                <p>Sistema de control de versiones visual que simplifica el manejo de ramas en proyectos de desarrollo colaborativo.</p>
+                <a href="#" class="project-button">Ver más</a>
+            </div>
+            
+            <div class="project-card fade-in">
+                <div class="project-icon">LG</div>
+                <h3>Logger</h3>
+                <p>Herramienta avanzada de logging y monitoreo de aplicaciones con dashboard en tiempo real y alertas personalizables.</p>
+                <a href="#" class="project-button">Ver más</a>
+            </div>
+            
+            <div class="project-card fade-in">
+                <div class="project-icon">IN</div>
+                <h3>Inventary</h3>
+                <p>Sistema completo de gestión de inventarios con código de barras, reportes automáticos y control de stock inteligente.</p>
+                <a href="#" class="project-button">Ver más</a>
+            </div>
+            
+            <div class="project-card fade-in">
+                <div class="project-icon">WP</div>
+                <h3>Wedding Project</h3>
+                <p>Plataforma integral para planificación de bodas con gestión de invitados, presupuestos y cronograma de eventos.</p>
+                <a href="/proyectos/wedding-project/index.html" class="project-button">Ver más</a>
+            </div>
+
+            <div class="project-card fade-in">
+                <div class="project-icon">KR</div>
+                <h3>Kronos</h3>
+                <p>Herramienta que te ayuda a crear tus horarios: clases, workspaces, eventos, entre otros.</p>
+                <a href="#" class="project-button">Ver más</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="sobre-mi">
+        <h2 class="section-title fade-in">Sobre Mí</h2>
+        <div class="about-content">
+            <div class="about-text fade-in">
+                <p>Soy Francisco Bailaba, un apasionado estudiante de Ingeniería de Sistemas con un enfoque en el desarrollo de software innovador. Mi trayectoria comenzó con la curiosidad por entender cómo funcionan las tecnologías que nos rodean, y ha evolucionado hacia la creación de soluciones que impactan positivamente en la vida de las personas.</p>
+                
+                <p>Me especializo en el desarrollo full-stack, combinando tecnologías frontend y backend para crear experiencias completas y funcionales. Mi filosofía de desarrollo se basa en la simplicidad, la eficiencia y la experiencia de usuario, siempre buscando escribir código limpio y mantenible.</p>
+                
+                <div class="tech-stack">
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">MySQL</span>
+                    <span class="tech-tag">PHP</span>
+                    <span class="tech-tag">C#</span>
+                    <span class="tech-tag">HTML/CSS</span>
+                    <span class="tech-tag">Git</span>
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">Node.js</span>
+                </div>
+            </div>
+            <div class="about-visual fade-in">
+                <div class="profile-placeholder">FB</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contacto">
+        <h2 class="section-title fade-in">Contacto</h2>
+        <div class="contact-content">
+            <form class="contact-form fade-in" id="contactForm">
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Enviar Mensaje</button>
+            </form>
+            
+            <div class="contact-info fade-in">
+                <div class="contact-item">
+                    <div class="contact-icon">📧</div>
+                    <div>
+                        <h4>Email</h4>
+                        <p>bylabaprojects@gmail.com</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">💼</div>
+                    <div>
+                        <h4>LinkedIn</h4>
+                        <p>linkedin.com/in/francisco-bailaba</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">🐙</div>
+                    <div>
+                        <h4>GitHub</h4>
+                        <p>github.com/fravha</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="#inicio">Inicio</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#contacto">Contacto</a>
+        </div>
+        <p>&copy; 2025 Bylaba Projects - Francisco Bailaba. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+</html>
