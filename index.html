@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bylaba Projects</title>
-    <link rel="stylesheet" href="brand.css">
+    <link rel="stylesheet" href="public/css/brand.css">
     <!-- <link rel="stylesheet" href="styles.css"> -->
     <link rel="stylesheet" href="public/css/stile.css"> 
 </head>
@@ -12,6 +12,7 @@
     <!-- Header -->
     <header class="header" id="header">
         <nav class="nav-container">
+            <button class="mobile-menu" id="mobileMenu">☰</button>
             <a href="#inicio" class="logo">
                 <img style="width: 40px; height: 40px; background: linear-gradient(135deg, #1e40af, #059669); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;" src="assets/img/logoBylaba.png" alt="Logo Bylaba" class="logo-img">
                 <span class="logo-text">Bylaba Projects</span>
@@ -22,19 +23,35 @@
                 <li><a href="#sobre-mi">Sobre mí</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
-            <button class="mobile-menu" id="mobileMenu">☰</button>
+            <span>Mode</s>
             <button class="toggle-theme-btn" id="themeToggle" title="Cambiar modo">🌙</button>
         </nav>
     </header>
 
-    <!-- Hero Section -->
+<!-- Hero Section -->
     <section class="hero" id="inicio">
-        <div class="hero-content">
-            <h1>Francisco Bailaba</h1>
-            <p class="subtitle">Estudiante de Ingeniería & Desarrollador de Software</p>
-            <p class="description">Soy estudiante de Ingeniería de Sistemas y creador de proyectos de software innovadores que resuelven problemas reales.</p>
-            <a href="#proyectos" class="cta-button">Ver mis proyectos</a>
+    <div class="hero-content">
+        <h1>Francisco Bailaba</h1>
+        <p class="subtitle">Estudiante de Ingeniería & Desarrollador de Software</p>
+        <p class="description">Soy estudiante de Ingeniería de Sistemas y creador de proyectos de software innovadores que resuelven problemas reales.</p>
+
+        <!-- Contact Links -->
+        <div class="contact-links">
+            <a href="https://www.linkedin.com/in/franciscobailaba" target="_blank" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5c0 1.38-1.1 2.5-2.49 2.5C1.1 6 0 4.88 0 3.5S1.1 1 2.49 1c1.38 0 2.49 1.12 2.49 2.5zM.03 8.5H5V24H.03V8.5zM8 8.5h4.6v2.1h.06c.64-1.2 2.2-2.5 4.54-2.5C21.6 8.1 24 10 24 14.3V24h-5V15c0-2.2-.8-3.7-2.8-3.7-1.53 0-2.44 1-2.83 1.96-.15.36-.19.86-.19 1.36V24H8V8.5z"/></svg>
+            </a>
+            <a href="https://github.com/Fravha" target="_blank" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12a12 12 0 008.21 11.43c.6.11.82-.26.82-.58v-2.24c-3.34.73-4.04-1.61-4.04-1.61-.55-1.4-1.34-1.77-1.34-1.77-1.1-.75.08-.74.08-.74 1.22.09 1.86 1.25 1.86 1.25 1.08 1.85 2.83 1.31 3.52 1 .11-.78.42-1.31.76-1.61-2.66-.3-5.46-1.33-5.46-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.18 0 0 1-.32 3.3 1.23a11.47 11.47 0 016 0c2.3-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.61-2.8 5.63-5.47 5.93.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.82.58A12 12 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            </a>
+            <a href="mailto:bylabaprojects@gmail.com" aria-label="Email">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 13.5L0 6V4l12 7.5L24 4v2L12 13.5zM0 8v12h24V8l-12 7.5L0 8z"/></svg>
+            </a>
+            <!--<a href="http://google.com" target="_blank" aria-label="Default">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-cog-icon lucide-cog"><path d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z"/><path d="M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/><path d="M12 2v2"/><path d="M12 22v-2"/><path d="m17 20.66-1-1.73"/><path d="M11 10.27 7 3.34"/><path d="m20.66 17-1.73-1"/><path d="m3.34 7 1.73 1"/><path d="M14 12h8"/><path d="M2 12h2"/><path d="m20.66 7-1.73 1"/><path d="m3.34 17 1.73-1"/><path d="m17 3.34-1 1.73"/><path d="m11 13.73-4 6.93"/></svg>
+            </a>-->
         </div>
+        <a href="#proyectos" class="cta-button">Ver mis proyectos</a>
+    </div>
     </section>
 
     <!-- Projects Section -->
@@ -73,7 +90,7 @@
                 <div class="project-icon">WP</div>
                 <h3>Wedding Project</h3>
                 <p>Plataforma integral para planificación de bodas con gestión de invitados, presupuestos y cronograma de eventos.</p>
-                <a href="/proyectos/wedding-project/index.html" class="project-button">Ver más</a>
+                <a href="proyectos/wedding-project/index.html" class="project-button">Ver más</a>
             </div>
 
             <div class="project-card fade-in">
@@ -84,10 +101,12 @@
             </div>
 
             <div class="project-card fade-in">
-                <div class="project-icon">CB</div>
-                <h3>Contact Book</h3>
+            <div class="project-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-notebook-tabs-icon lucide-notebook-tabs"><path d="M2 6h4"/><path d="M2 10h4"/><path d="M2 14h4"/><path d="M2 18h4"/><rect width="16" height="20" x="4" y="2" rx="2"/><path d="M15 2v20"/><path d="M15 7h5"/><path d="M15 12h5"/><path d="M15 17h5"/></svg>
+            </div>
+            <h3>Contact Book</h3>
                 <p>Libreta de contactos, registro y seguimiento.</p>
-                <a href="https://fravha.github.io/contactBook/" class="project-button">Ver más</a>
+            <a href="https://fravha.github.io/contactBook/" class="project-button">Ver más</a>
             </div>
         </div>
     </section>
@@ -102,14 +121,30 @@
                 <p>Me especializo en el desarrollo full-stack, combinando tecnologías frontend y backend para crear experiencias completas y funcionales. Mi filosofía de desarrollo se basa en la simplicidad, la eficiencia y la experiencia de usuario, siempre buscando escribir código limpio y mantenible.</p>
                 
                 <div class="tech-stack">
-                    <span class="tech-tag">JavaScript</span>
-                    <span class="tech-tag">MySQL</span>
-                    <span class="tech-tag">PHP</span>
-                    <span class="tech-tag">C#</span>
-                    <span class="tech-tag">HTML/CSS</span>
-                    <span class="tech-tag">Git</span>
-                    <span class="tech-tag">React</span>
-                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">
+                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>JavaScript</title><path d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z"/></svg>
+                        JavaScript
+                    </span>
+
+                    <span class="tech-tag">
+                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>MySQL</title><path d="M16.405 5.501c-.115 0-.193.014-.274.033v.013h.014c.054.104.146.18.214.273.054.107.1.214.154.32l.014-.015c.094-.066.14-.172.14-.333-.04-.047-.046-.094-.08-.14-.04-.067-.126-.1-.18-.153zM5.77 18.695h-.927a50.854 50.854 0 00-.27-4.41h-.008l-1.41 4.41H2.45l-1.4-4.41h-.01a72.892 72.892 0 00-.195 4.41H0c.055-1.966.192-3.81.41-5.53h1.15l1.335 4.064h.008l1.347-4.064h1.095c.242 2.015.384 3.86.428 5.53zm4.017-4.08c-.378 2.045-.876 3.533-1.492 4.46-.482.716-1.01 1.073-1.583 1.073-.153 0-.34-.046-.566-.138v-.494c.11.017.24.026.386.026.268 0 .483-.075.647-.222.197-.18.295-.382.295-.605 0-.155-.077-.47-.23-.944L6.23 14.615h.91l.727 2.36c.164.536.233.91.205 1.123.4-1.064.678-2.227.835-3.483zm12.325 4.08h-2.63v-5.53h.885v4.85h1.745zm-3.32.135l-1.016-.5c.09-.076.177-.158.255-.25.433-.506.648-1.258.648-2.253 0-1.83-.718-2.746-2.155-2.746-.704 0-1.254.232-1.65.697-.43.508-.646 1.256-.646 2.245 0 .972.19 1.686.574 2.14.35.41.877.615 1.583.615.264 0 .506-.033.725-.098l1.325.772.36-.622zM15.5 17.588c-.225-.36-.337-.94-.337-1.736 0-1.393.424-2.09 1.27-2.09.443 0 .77.167.977.5.224.362.336.936.336 1.723 0 1.404-.424 2.108-1.27 2.108-.445 0-.77-.167-.978-.5zm-1.658-.425c0 .47-.172.856-.516 1.156-.344.3-.803.45-1.384.45-.543 0-1.064-.172-1.573-.515l.237-.476c.438.22.833.328 1.19.328.332 0 .593-.073.783-.22a.754.754 0 00.3-.615c0-.33-.23-.61-.648-.845-.388-.213-1.163-.657-1.163-.657-.422-.307-.632-.636-.632-1.177 0-.45.157-.81.47-1.085.315-.278.72-.415 1.22-.415.512 0 .98.136 1.4.41l-.213.476a2.726 2.726 0 00-1.064-.23c-.283 0-.502.068-.654.206a.685.685 0 00-.248.524c0 .328.234.61.666.85.393.215 1.187.67 1.187.67.433.305.648.63.648 1.168zm9.382-5.852c-.535-.014-.95.04-1.297.188-.1.04-.26.04-.274.167.055.053.063.14.11.214.08.134.218.313.346.407.14.11.28.216.427.31.26.16.555.255.81.416.145.094.293.213.44.313.073.05.12.14.214.172v-.02c-.046-.06-.06-.147-.105-.214-.067-.067-.134-.127-.2-.193a3.223 3.223 0 00-.695-.675c-.214-.146-.682-.35-.77-.595l-.013-.014c.146-.013.32-.066.46-.106.227-.06.435-.047.67-.106.106-.027.213-.06.32-.094v-.06c-.12-.12-.21-.283-.334-.395a8.867 8.867 0 00-1.104-.823c-.21-.134-.476-.22-.697-.334-.08-.04-.214-.06-.26-.127-.12-.146-.19-.34-.275-.514a17.69 17.69 0 01-.547-1.163c-.12-.262-.193-.523-.34-.763-.69-1.137-1.437-1.826-2.586-2.5-.247-.14-.543-.2-.856-.274-.167-.008-.334-.02-.5-.027-.11-.047-.216-.174-.31-.235-.38-.24-1.364-.76-1.644-.072-.18.434.267.862.422 1.082.115.153.26.328.34.5.047.116.06.235.107.356.106.294.207.622.347.897.073.14.153.287.247.413.054.073.146.107.167.227-.094.136-.1.334-.154.5-.24.757-.146 1.693.194 2.25.107.166.362.534.703.393.3-.12.234-.5.32-.835.02-.08.007-.133.048-.187v.015c.094.188.188.367.274.555.206.328.566.668.867.895.16.12.287.328.487.402v-.02h-.015c-.043-.058-.1-.086-.154-.133a3.445 3.445 0 01-.35-.4 8.76 8.76 0 01-.747-1.218c-.11-.21-.202-.436-.29-.643-.04-.08-.04-.2-.107-.24-.1.146-.247.273-.32.453-.127.288-.14.642-.188 1.01-.027.007-.014 0-.027.014-.214-.052-.287-.274-.367-.46-.2-.475-.233-1.238-.06-1.785.047-.14.247-.582.167-.716-.042-.127-.174-.2-.247-.303a2.478 2.478 0 01-.24-.427c-.16-.374-.24-.788-.414-1.162-.08-.173-.22-.354-.334-.513-.127-.18-.267-.307-.368-.52-.033-.073-.08-.194-.027-.274.014-.054.042-.075.094-.09.088-.072.335.022.422.062.247.1.455.194.662.334.094.066.195.193.315.226h.14c.214.047.455.014.655.073.355.114.675.28.962.46a5.953 5.953 0 012.085 2.286c.08.154.115.295.188.455.14.33.313.663.455.982.14.315.275.636.476.897.1.14.502.213.682.286.133.06.34.115.46.188.23.14.454.3.67.454.11.076.443.243.463.378z"/></svg>
+                        MySQL
+                    </span>
+
+                    <span class="tech-tag">
+                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>PHP</title><path d="M7.01 10.207h-.944l-.515 2.648h.838c.556 0 .97-.105 1.242-.314.272-.21.455-.559.55-1.049.092-.47.05-.802-.124-.995-.175-.193-.523-.29-1.047-.29zM12 5.688C5.373 5.688 0 8.514 0 12s5.373 6.313 12 6.313S24 15.486 24 12c0-3.486-5.373-6.312-12-6.312zm-3.26 7.451c-.261.25-.575.438-.917.551-.336.108-.765.164-1.285.164H5.357l-.327 1.681H3.652l1.23-6.326h2.65c.797 0 1.378.209 1.744.628.366.418.476 1.002.33 1.752a2.836 2.836 0 0 1-.305.847c-.143.255-.33.49-.561.703zm4.024.715l.543-2.799c.063-.318.039-.536-.068-.651-.107-.116-.336-.174-.687-.174H11.46l-.704 3.625H9.388l1.23-6.327h1.367l-.327 1.682h1.218c.767 0 1.295.134 1.586.401s.378.7.263 1.299l-.572 2.944h-1.389zm7.597-2.265a2.782 2.782 0 0 1-.305.847c-.143.255-.33.49-.561.703a2.44 2.44 0 0 1-.917.551c-.336.108-.765.164-1.286.164h-1.18l-.327 1.682h-1.378l1.23-6.326h2.649c.797 0 1.378.209 1.744.628.366.417.477 1.001.331 1.751zM17.766 10.207h-.943l-.516 2.648h.838c.557 0 .971-.105 1.242-.314.272-.21.455-.559.551-1.049.092-.47.049-.802-.125-.995s-.524-.29-1.047-.29z"/></svg>
+                        PHP
+                    </span>
+
+                    <span class="tech-tag">
+                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Git</title><path d="M23.546 10.93L13.067.452c-.604-.603-1.582-.603-2.188 0L8.708 2.627l2.76 2.76c.645-.215 1.379-.07 1.889.441.516.515.658 1.258.438 1.9l2.658 2.66c.645-.223 1.387-.078 1.9.435.721.72.721 1.884 0 2.604-.719.719-1.881.719-2.6 0-.539-.541-.674-1.337-.404-1.996L12.86 8.955v6.525c.176.086.342.203.488.348.713.721.713 1.883 0 2.6-.719.721-1.889.721-2.609 0-.719-.719-.719-1.879 0-2.598.182-.18.387-.316.605-.406V8.835c-.217-.091-.424-.222-.6-.401-.545-.545-.676-1.342-.396-2.009L7.636 3.7.45 10.881c-.6.605-.6 1.584 0 2.189l10.48 10.477c.604.604 1.582.604 2.186 0l10.43-10.43c.605-.603.605-1.582 0-2.187"/></svg>
+                        Git
+                    </span>
+
+                    <span class="tech-tag">
+                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Node.js</title><path d="M11.998,24c-0.321,0-0.641-0.084-0.922-0.247l-2.936-1.737c-0.438-0.245-0.224-0.332-0.08-0.383 c0.585-0.203,0.703-0.25,1.328-0.604c0.065-0.037,0.151-0.023,0.218,0.017l2.256,1.339c0.082,0.045,0.197,0.045,0.272,0l8.795-5.076 c0.082-0.047,0.134-0.141,0.134-0.238V6.921c0-0.099-0.053-0.192-0.137-0.242l-8.791-5.072c-0.081-0.047-0.189-0.047-0.271,0 L3.075,6.68C2.99,6.729,2.936,6.825,2.936,6.921v10.15c0,0.097,0.054,0.189,0.139,0.235l2.409,1.392 c1.307,0.654,2.108-0.116,2.108-0.89V7.787c0-0.142,0.114-0.253,0.256-0.253h1.115c0.139,0,0.255,0.112,0.255,0.253v10.021 c0,1.745-0.95,2.745-2.604,2.745c-0.508,0-0.909,0-2.026-0.551L2.28,18.675c-0.57-0.329-0.922-0.945-0.922-1.604V6.921 c0-0.659,0.353-1.275,0.922-1.603l8.795-5.082c0.557-0.315,1.296-0.315,1.848,0l8.794,5.082c0.57,0.329,0.924,0.944,0.924,1.603 v10.15c0,0.659-0.354,1.273-0.924,1.604l-8.794,5.078C12.643,23.916,12.324,24,11.998,24z M19.099,13.993 c0-1.9-1.284-2.406-3.987-2.763c-2.731-0.361-3.009-0.548-3.009-1.187c0-0.528,0.235-1.233,2.258-1.233 c1.807,0,2.473,0.389,2.747,1.607c0.024,0.115,0.129,0.199,0.247,0.199h1.141c0.071,0,0.138-0.031,0.186-0.081 c0.048-0.054,0.074-0.123,0.067-0.196c-0.177-2.098-1.571-3.076-4.388-3.076c-2.508,0-4.004,1.058-4.004,2.833 c0,1.925,1.488,2.457,3.895,2.695c2.88,0.282,3.103,0.703,3.103,1.269c0,0.983-0.789,1.402-2.642,1.402 c-2.327,0-2.839-0.584-3.011-1.742c-0.02-0.124-0.126-0.215-0.253-0.215h-1.137c-0.141,0-0.254,0.112-0.254,0.253 c0,1.482,0.806,3.248,4.655,3.248C17.501,17.007,19.099,15.91,19.099,13.993z"/></svg>
+                        Node.js
+                    </span>
                 </div>
             </div>
             <div class="about-visual fade-in">
@@ -120,50 +155,74 @@
 
     <!-- Contact Section -->
     <section class="section" id="contacto">
-        <h2 class="section-title fade-in">Contacto</h2>
-        <div class="contact-content">
-            <form class="contact-form fade-in" id="contactForm">
-                <div class="form-group">
-                    <label for="nombre">Nombre</label>
-                    <input type="text" id="nombre" name="nombre" required>
+    <h2 class="section-title fade-in">Contacto</h2>
+    <div class="contact-content">
+        <div class="contact-info fade-in">
+
+            <!-- Email -->
+            <div class="contact-item">
+                <a href="mailto:bylabaprojects@gmail.com" target="_blank" class="contact-icon" aria-label="Correo">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 13.5L0 6V4l12 7.5L24 4v2L12 13.5zM0 8v12h24V8l-12 7.5L0 8z"/></svg>
+                </a>
+                <div class="contact-text">
+                <h4>Email</h4>
+                <p id="emailText">bylabaprojects@gmail.com</p>
                 </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="mensaje">Mensaje</label>
-                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
-                </div>
-                <button type="submit" class="submit-button">Enviar Mensaje</button>
-            </form>
-            
-            <div class="contact-info fade-in">
-                <div class="contact-item">
-                    <div class="contact-icon">📧</div>
-                    <div>
-                        <h4>Email</h4>
-                        <p>bylabaprojects@gmail.com</p>
-                    </div>
-                </div>
-                
-                <div class="contact-item">
-                    <div class="contact-icon">💼</div>
-                    <div>
-                        <h4>LinkedIn</h4>
-                        <p>linkedin.com/in/francisco-bailaba</p>
-                    </div>
-                </div>
-                
-                <div class="contact-item">
-                    <div class="contact-icon">🐙</div>
-                    <div>
-                        <h4>GitHub</h4>
-                        <p>github.com/fravha</p>
-                    </div>
+                <div class="contact-actions">
+                <button class="contact-btn" onclick="window.location.href='mailto:bylabaprojects@gmail.com'" title="Enviar correo" ...>✉️</button>
+                <button class="contact-btn" onclick="copiarTexto('emailText')" title="Copiar correo">📋</button>
                 </div>
             </div>
+
+            <!-- LinkedIn -->
+            <div class="contact-item">
+                <a href="https://www.linkedin.com/in/franciscobailaba/" target="_blank" class="contact-icon" aria-label="LinkedIn">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5c0 1.38-1.1 2.5-2.49 2.5C1.1 6 0 4.88 0 3.5S1.1 1 2.49 1c1.38 0 2.49 1.12 2.49 2.5zM.03 8.5H5V24H.03V8.5zM8 8.5h4.6v2.1h.06c.64-1.2 2.2-2.5 4.54-2.5C21.6 8.1 24 10 24 14.3V24h-5V15c0-2.2-.8-3.7-2.8-3.7-1.53 0-2.44 1-2.83 1.96-.15.36-.19.86-.19 1.36V24H8V8.5z"/></svg>
+                </a>
+                <div class="contact-text">
+                <h4>LinkedIn</h4>
+                <p id="linkedinText">https://www.linkedin.com/in/franciscobailaba/</p>
+                </div>
+                <div class="contact-actions">
+                <button class="contact-btn" onclick="window.open('https://www.linkedin.com/in/franciscobailaba/', '_blank')" title="Abrir LinkedIn">🔗</button>
+                <button class="contact-btn" onclick="copiarTexto('linkedinText')" title="Copiar enlace">📋</button>
+                </div>
+            </div>
+
+            <!-- GitHub -->
+            <div class="contact-item">
+                <a href="https://github.com/Fravha" target="_blank" class="contact-icon" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12a12 12 0 008.21 11.43c.6.11.82-.26.82-.58v-2.24c-3.34.73-4.04-1.61-4.04-1.61-.55-1.4-1.34-1.77-1.34-1.77-1.1-.75.08-.74.08-.74 1.22.09 1.86 1.25 1.86 1.25 1.08 1.85 2.83 1.31 3.52 1 .11-.78.42-1.31.76-1.61-2.66-.3-5.46-1.33-5.46-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.18 0 0 1-.32 3.3 1.23a11.47 11.47 0 016 0c2.3-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.61-2.8 5.63-5.47 5.93.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.82.58A12 12 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                </a>
+                <div class="contact-text">
+                <h4>GitHub</h4>
+                <p id="githubText">https://github.com/Fravha</p>
+                </div>
+                <div class="contact-actions">
+                <button class="contact-btn" onclick="window.open('https://github.com/Fravha', '_blank')" title="Abrir GitHub">🔗</button>
+                <button class="contact-btn" onclick="copiarTexto('githubText')" title="Copiar enlace">📋</button>
+                </div>
+            </div>
+
+            <!-- Hojan de Vida -->
+            <div class="contact-item">
+                <a href="https://drive.google.com/file/d/1gfQAxbY29n74iwWpAf3f_33OTLcPvG_6/view?usp=sharing" target="_blank" class="contact-icon" aria-label="GitHub">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+                    </svg>
+                </a>
+                <div class="contact-text">
+                    <h4>Hoja de Vida</h4>
+                    <p id="githubText">Hoja de Vida - Francisco Bailaba</p>
+                </div>
+                <div class="contact-actions">
+                    <button class="contact-btn" onclick="window.open('https://drive.google.com/file/d/1gfQAxbY29n74iwWpAf3f_33OTLcPvG_6/view?usp=sharing', '_blank')" title="Abrir GitHub">🔗</button>
+                    <button class="contact-btn" onclick="copiarTexto('githubText')" title="Copiar enlace">📋</button>
+                </div>
+            </div>
+
         </div>
+    </div>
     </section>
 
     <!-- Footer -->

@@ -75,23 +75,6 @@ document.querySelectorAll('.fade-in').forEach(el => {
     observer.observe(el);
 });
 
-// Contact form handling
-const contactForm = document.getElementById('contactForm');
-contactForm.addEventListener('submit', (e) => {
-    e.preventDefault();
-    
-    // Get form data
-    const formData = new FormData(contactForm);
-    const nombre = formData.get('nombre');
-    const email = formData.get('email');
-    const mensaje = formData.get('mensaje');
-    
-    // Simulate form submission
-    alert(`¡Gracias ${nombre}! Tu mensaje ha sido enviado. Te contactaremos pronto.`);
-    
-    // Reset form
-    contactForm.reset();
-});
 
 // Add loading animation to project buttons
 document.querySelectorAll('.project-button').forEach(button => {
@@ -113,12 +96,6 @@ document.querySelectorAll('.project-button').forEach(button => {
         // Si tiene href real, deja que el navegador siga su curso normal
     });
 });
-
-button.style.cursor = 'wait';
-
-button.setAttribute('disabled', true);
-// ...
-button.removeAttribute('disabled');
 
 // Parallax effect for hero section
 window.addEventListener('scroll', () => {
@@ -185,6 +162,13 @@ function revealSections() {
             section.style.transform = 'translateY(0)';
         }
     });
+}
+
+function copiarTexto(id) {
+  const text = document.getElementById(id).textContent;
+  navigator.clipboard.writeText(text).then(() => {
+    alert("Copiado al portapapeles.");
+  });
 }
 
 // Initialize sections with hidden state
