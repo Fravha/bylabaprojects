@@ -1,0 +1,314 @@
+[
+  {
+    "slug": "inventory",
+    "theme": "inventory",
+    "name": "Inventory",
+    "initials": "IN",
+    "category": "Web app",
+    "description": "Aplicación web para la gestión de inventario de insumos y productos terminados, enfocada en operaciones reales.",
+    "status": "En desarrollo",
+    "statusVariant": "live",
+    "tagline": "Control de inventario para operaciones reales",
+    "tags": ["Inventario", "Producción", "Control"],
+    "href": "proyectos/inventory/index.html",
+    "roadmap": ["Idea", "Estructuración", "Desarrollo", "Validación", "Lanzamiento"],
+    "currentPhase": "Desarrollo",
+
+    "features": [
+      "Gestión de insumos",
+      "Productos terminados",
+      "Registro de compras",
+      "Recetas de producción",
+      "Movimientos de inventario",
+      "Gestión de almacenes"
+    ],
+
+    "page": {
+      "title": "Inventory | Bylaba Projects",
+      "metaDescription": "Aplicación web para gestión de inventario y producción orientada a operaciones reales.",
+      "eyebrow": "Proyecto digital",
+      "lead": "Aplicación web para la gestión de inventarios, diseñada para emprendimientos y pequeñas empresas con operaciones reales.",
+
+      "summaryStatus": "Versión funcional inicial disponible, en evolución hacia una estructura más robusta.",
+
+      "metrics": [
+        { "value": "0.2", "label": "versión actual en desarrollo" },
+        { "value": "6+", "label": "módulos base" },
+        { "value": "1", "label": "implementación real activa" }
+      ],
+
+      "summary": [
+        "Inventory nace como una solución para gestionar inventario en un entorno real, específicamente en un emprendimiento donde el control manual generaba desorden y riesgo de pérdida de información.",
+        "El sistema permite centralizar datos, registrar movimientos y mantener un historial claro de insumos y productos terminados.",
+        "Actualmente cuenta con una versión 0.1 funcional desarrollada en PHP y MySQL, utilizada en un entorno real con datos de prueba y en evolución hacia una versión más estructurada."
+      ],
+
+      "currentStatusTitle": "Versión 0.2 en desarrollo",
+      "currentPhase": "Evolución del producto",
+      "currentStatusDescription": "Se está mejorando la estructura del sistema, incorporando nuevos módulos y preparando la base para soportar múltiples organizaciones.",
+
+      "progress": 45,
+
+      "roadmapTitle": "Evolución hacia una herramienta estable y escalable.",
+      "roadmap": [
+        {
+          "title": "Definición del alcance",
+          "description": "Identificar necesidades reales del negocio y definir módulos base.",
+          "active": false
+        },
+        {
+          "title": "Versión 0.1 funcional",
+          "description": "Sistema inicial en PHP con gestión básica de inventario y datos de prueba.",
+          "active": false
+        },
+        {
+          "title": "Reestructuración del sistema",
+          "description": "Mejorar arquitectura, módulos y base de datos.",
+          "active": true
+        },
+        {
+          "title": "Soporte multi-organización",
+          "description": "Permitir que múltiples empresas utilicen el sistema en una sola plataforma."
+        },
+        {
+          "title": "Validación y mejoras",
+          "description": "Probar con uso real, optimizar flujos y preparar versión estable."
+        }
+      ],
+
+      "featuresTitle": "Módulos diseñados para operaciones reales.",
+      "features": [
+        {
+          "initials": "IN",
+          "title": "Gestión de insumos",
+          "description": "Registro y control de materias primas utilizadas en producción."
+        },
+        {
+          "initials": "PT",
+          "title": "Productos terminados",
+          "description": "Control de productos finales listos para venta o distribución."
+        },
+        {
+          "initials": "CP",
+          "title": "Compras",
+          "description": "Registro de adquisiciones de insumos con historial completo."
+        },
+        {
+          "initials": "RC",
+          "title": "Recetas",
+          "description": "Definición de cómo se transforman insumos en productos."
+        },
+        {
+          "initials": "MV",
+          "title": "Movimientos",
+          "description": "Seguimiento detallado de entradas, salidas y cambios de inventario."
+        },
+        {
+          "initials": "AL",
+          "title": "Almacenes",
+          "description": "Gestión de múltiples ubicaciones de almacenamiento."
+        }
+      ],
+
+      "approachTitle": "Construir desde la operación real.",
+      "approach": [
+        "Inventory se desarrolla a partir de necesidades concretas, no como una solución genérica.",
+        "La prioridad es mantener control, trazabilidad y claridad en los datos antes de escalar funcionalidades.",
+        "El sistema evoluciona a medida que se valida su uso en entornos reales."
+      ]
+    },
+
+    "demo": {
+      "available": true,
+      "url": "https://datacent.pro/csinventory/",
+      "username": "admin",
+      "password": "000",
+      "note": "Demo pública con datos de prueba"
+    },
+    "tech": ["PHP", "MySQL", "JavaScript"]
+  },
+  {
+    "slug": "fasty",
+    "theme": "fasty",
+    "name": "Fasty",
+    "initials": "FA",
+    "category": "Desktop + web",
+    "description": "Aplicación multiplataforma para renombrado masivo de archivos mediante patrones personalizados y automatización.",
+    "status": "Prototipo funcional",
+    "statusVariant": "live",
+    "tagline": "Automatiza tareas repetitivas con archivos",
+    "tags": ["Automatización", "Archivos", "Productividad"],
+    "href": "proyectos/fasty/index.html",
+    "roadmap": ["Idea", "Estructuración", "Desarrollo", "Lanzamiento"],
+    "currentPhase": "Estructuración",
+    "features": [
+      "Renombrado masivo",
+      "Variables personalizadas",
+      "Importación desde Excel",
+      "Procesamiento por lotes",
+      "Previsualización",
+      "Plantillas reutilizables"
+    ],
+    "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+
+      "tech": [
+        "Electron",
+        "JavaScript",
+        "Node.js"
+      ],
+
+      "branding": {
+        "theme": "fasty",
+        "primaryColor": "#7C3AED",
+        "accentColor": "#F472B6",
+        "surfaceColor": "#F7F5FF"
+      },
+
+      "distribution": {
+        "offline": true,
+        "internetRequired": false,
+        "portableVersion": false
+      },
+
+      "downloads": [
+        {
+          "platform": "Windows",
+          "type": "installer",
+          "format": ".exe",
+          "url": ""
+        }
+      ],
+      "differentiators": [
+        "Funciona completamente offline",
+        "Orientado a productividad real",
+        "Compatible con múltiples formatos",
+        "Automatización reutilizable"
+      ],
+
+      "development": {
+        "phase": "Prototype",
+        "version": "0.1.0",
+        "stability": "Experimental"
+      }
+  },
+  {
+    "slug": "kantic",
+    "name": "Kantic",
+    "initials": "KA",
+    "category": "Colaborativo",
+    "description": "Aplicación enfocada en organizar repertorios para celebraciones litúrgicas y facilitar la preparación musical.",
+    "status": "Próximamente",
+    "tagline": "Organiza repertorios litúrgicos de forma colaborativa",
+    "tags": ["Música", "Repertorios", "Comunidad"],
+    "roadmap": ["Idea", "Estructuración", "Desarrollo", "Lanzamiento"],
+    "currentPhase": "Idea",
+    "features": ["Listas de canciones", "Organización por celebración", "Colaboración musical"]
+  },
+  {
+    "slug": "planeo-one",
+    "theme": "planeo-one",
+    "name": "Planeo One",
+    "initials": "PO",
+    "category": "Eventos",
+    "description": "Aplicación web para la gestión de eventos, orientada a event planners y enfocada en organización, seguimiento y estructura.",
+    "status": "En desarrollo",
+    "statusVariant": "live",
+    "tagline": "Organiza eventos sin perder el control",
+    "tags": ["Eventos", "Gestión", "Event planners"],
+    "href": "proyectos/planeo-one/index.html",
+    "roadmap": ["Idea", "Estructuración", "Desarrollo", "Lanzamiento"],
+    "currentPhase": "Desarrollo",
+    "features": [
+      "Gestión de eventos",
+      "Seguimiento de tareas",
+      "Organización de clientes",
+      "Gestión de proveedores",
+      "Calendario operativo",
+      "Reportes de avance"
+    ],
+    "page": {
+      "title": "Planeo One | Bylaba Projects",
+      "metaDescription": "Planeo One es una aplicación web para la gestión de eventos, orientada a event planners y equipos de organización.",
+      "eyebrow": "Proyecto digital",
+      "lead": "Aplicación web para la gestión de eventos, orientada a event planners.",
+      "heroText": "El proyecto busca ordenar la planificación, seguimiento y estructura de eventos desde una base práctica, clara y adaptable a operaciones reales.",
+      "summaryStatus": "Definición funcional y alcance inicial.",
+      "metrics": [
+        { "value": "01", "label": "fase actual" },
+        { "value": "4", "label": "etapas de trabajo" },
+        { "value": "6", "label": "funciones base" }
+      ],
+      "summaryTitle": "Una herramienta para estructurar eventos con seguimiento claro.",
+      "summary": [
+        "Planeo One nace como una solución para organizar eventos desde una perspectiva operativa: planificación, proveedores, tareas, tiempos y control de avance.",
+        "Su objetivo es reducir la dispersión de información y ayudar a que cada evento tenga una estructura clara desde la preparación hasta la ejecución."
+      ],
+      "currentStatusTitle": "Fase de definición y validación inicial.",
+      "currentPhase": "Base del producto",
+      "currentStatusDescription": "Actualmente se está definiendo la estructura principal del proyecto, los módulos esenciales y el flujo de trabajo para event planners.",
+      "progress": 30,
+      "roadmapTitle": "Etapas simples para llevar el proyecto a una versión usable.",
+      "roadmap": [
+        {
+          "title": "Definición del alcance",
+          "description": "Ordenar módulos, usuarios, necesidades principales y límites de la primera versión.",
+          "active": true
+        },
+        {
+          "title": "Diseño de flujo operativo",
+          "description": "Definir cómo se crean, organizan y ejecutan los eventos dentro de la aplicación."
+        },
+        {
+          "title": "Construcción del MVP",
+          "description": "Implementar una versión inicial con módulos esenciales y navegación clara."
+        },
+        {
+          "title": "Validación con uso real",
+          "description": "Probar el flujo con casos reales, ajustar prioridades y preparar mejoras."
+        }
+      ],
+      "featuresTitle": "Módulos pensados para organizar eventos de forma práctica.",
+      "features": [
+        {
+          "initials": "EV",
+          "title": "Gestión de eventos",
+          "description": "Crear eventos, registrar información principal y mantener una estructura centralizada."
+        },
+        {
+          "initials": "PV",
+          "title": "Proveedores",
+          "description": "Organizar contactos, servicios, acuerdos y seguimiento de proveedores por evento."
+        },
+        {
+          "initials": "TK",
+          "title": "Tareas y pendientes",
+          "description": "Dividir el trabajo en actividades concretas, responsables y estados de avance."
+        },
+        {
+          "initials": "CL",
+          "title": "Calendario",
+          "description": "Visualizar fechas clave, entregas, reuniones y momentos importantes del evento."
+        },
+        {
+          "initials": "RP",
+          "title": "Reportes",
+          "description": "Revisar avances, pendientes y datos relevantes para tomar mejores decisiones."
+        },
+        {
+          "initials": "OR",
+          "title": "Organización interna",
+          "description": "Mantener la información del evento ordenada para reducir errores y pérdida de contexto."
+        }
+      ],
+      "approachTitle": "Construir desde operaciones reales, no desde una idea aislada.",
+      "approach": [
+        "Planeo One se plantea como un proyecto para aprender a convertir necesidades de organización en flujos claros, módulos sostenibles y una experiencia útil para trabajo diario.",
+        "La prioridad es mantener una base simple, validar el uso real y crecer solo cuando la estructura del producto lo justifique."
+      ]
+    }
+  }
+]
